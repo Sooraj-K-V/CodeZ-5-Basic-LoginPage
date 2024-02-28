@@ -1,0 +1,102 @@
+body{
+    background-image: url("GettyImages-1386714387_ForJenny-1.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    flex: 0 0 auto;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+img:hover{
+    height: 160px;
+    width: 160px;
+    margin: 30px;
+    flex: 0 0 auto;
+    border: solid;
+    border-color: rgb(255, 255, 0);
+    border-width: 6px;
+    border-radius: 5px;
+}
+.img-div{
+    display: flex;
+    flex-direction: row; 
+    background-image: url("tomodachi_game_wallpaper_desktop_by_sarojpedada_dg35iln-fullview.jpg");
+    width: 450px;
+    height: 290px;
+    width: min-content;
+    justify-content: space-around;
+    border: solid;
+    border-color: rgb(0, 238, 255);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.img1{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 0.70;
+}
+.img2{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    transition: 0.5s;
+    opacity: 0.70;
+}
+.img1:hover{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    opacity: 1;
+}
+.img2:hover{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    opacity: 1;
+}
+h5{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+h5:hover{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(34, 255, 0);
+}
+h1{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.5s;
+}
+h1:hover{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 110, 255);
+    border-radius: 8px;
+    padding: 20px;
+    color: rgb(255, 0, 187);
+}
